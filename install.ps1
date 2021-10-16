@@ -1,4 +1,4 @@
-## Porn blocker installation script
+## Porn blocker installation script - Windows
 
 If ([Security.Principal.WindowsIdentity]::GetCurrent().Groups -contains 'S-1-5-32-544') {
 	Get-Content ".\hosts.db" >> "C:\Windows\System32\drivers\etc\hosts" # Append hosts.db to hosts
